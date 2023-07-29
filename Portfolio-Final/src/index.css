@@ -42,7 +42,7 @@ ul {
   margin: 0 25px;
   font-size: 18px;
   font-weight: 600;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 
 .nav-item:hover {
@@ -97,12 +97,20 @@ h1 {
   gap: 10px;
   width: 40px;
   padding-top: 4%;
+  transition: all 0.2s;
+}
+
+.hero-icons img:hover {
+  transform: scale(1.1);
+  opacity: 65%;
+  
 }
 
 .stackconteiner {
   display: flex;
   margin-top: 7%;
   width: 100%;
+  margin-bottom: 10%;
   align-items: center;
   justify-content: center;
 }
@@ -121,7 +129,7 @@ h1 {
   align-items: center;
   display: flex;
   justify-content: center;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
 .stacklist {
@@ -136,4 +144,39 @@ h1 {
 
 .stackitems img {
   width: 40px;
+}
+
+#aboutmeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 100%;
+}
+
+.about-me-card {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin: 0 10% 0 10%;
+  width: 100%;
+  height: 60%;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.about-me-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10% 0 10%;
+  gap: 5%;
+}
+
+.about-me-text {
+  width: 40%;
+}
+
+.about-me-text span {
+  color: #2B5AFF;
 }
