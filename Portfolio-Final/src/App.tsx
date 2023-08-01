@@ -1,10 +1,13 @@
 import './index.css'
 import Nav from './Components/nav'
 import StackIcons from './Components/Stack-Icons'
+import Cards from './Components/Cards-right'
 import Me from '../public/Dylan1-fotor-20230726192736.png'
 import Github from '../public/github1.png'
 import Linkedin from '../public/linkedin1.png'
 import Aboutme from '../public/software-developer-6521720_960_720 1.png'
+import Map from '.././public/map.png'
+import Gmail from '../public/gmail.png'
 
 function App() {
   return (
@@ -56,8 +59,50 @@ function App() {
               </div>
             </div>
         </div>
+      </section>
+
+      <section id='portfolio-cards'>
+        <header className='card-header'>
+          <h3>Portfolio</h3>
+          <h2>Every endeavor stands as an individual masterpiece of progress. ✨</h2>
+        </header>
+
+        <Cards/>
 
       </section>
+
+      <div id='footer'>
+
+        <div className='contact-info'>
+          <h3>Contact</h3>
+          <h2>Let me know what's up!</h2>
+
+          <div className='contact-content'>
+            <div className='circle'>
+              <img src={Map} alt='A map'></img>
+            </div>
+
+            <div className='contact-text'> 
+              <h4>Location</h4>
+              <p>Dominincam Republic</p>
+            </div>
+
+            <div className='circle2'>
+              <img src={Gmail} alt='A map'></img>
+            </div>
+
+            <div className='contact-text'> 
+              <h4>Mail</h4>
+              <p>dylan.minaya12@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div className='rights'>
+          <h3>Copyright © 2023. All rights are reserved</h3>
+        </div>
+
+      </div>
     </>
   )
 }
