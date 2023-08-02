@@ -1,4 +1,5 @@
 import '../index.css'
+import { Link } from 'react-scroll'
 
 function Nav() {
     return(
@@ -13,19 +14,19 @@ function Nav() {
                 <ul>
 
                     <li className='nav-item'>
-                        <a href='#'>Home</a>
+                        <Link to="hero-container" spy={true} smooth={true} offset={-50} duration={0}><a>Home</a></Link>
                     </li>
 
                     <li className='nav-item'>
-                        <a href='#'>About</a>
+                    <Link to="aboutmeContainer" spy={true} smooth={true} offset={-50} duration={0}><a>About</a></Link>
                     </li>
 
                     <li className='nav-item'>
-                        <a href='#'>Portfolio</a>
+                        <Link to="portfolio-cards" spy={true} smooth={true} offset={-100} duration={0}><a>Portfolio</a></Link>
                     </li>
 
                     <li className='nav-item'>
-                        <a href='#'>Contact</a>
+                        <Link to="footer" spy={true} smooth={true} offset={-50} duration={0}><a>Contact</a></Link>
                     </li>
 
                 </ul>

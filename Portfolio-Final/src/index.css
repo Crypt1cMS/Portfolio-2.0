@@ -43,6 +43,7 @@ ul {
   font-size: 18px;
   font-weight: 600;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 .nav-item:hover {
