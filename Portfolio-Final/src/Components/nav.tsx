@@ -18,7 +18,7 @@ function Nav() {
                     </li>
 
                     <li className='nav-item'>
-                    <Link to="aboutmeContainer" spy={true} smooth={true} offset={-50} duration={0}><a>About</a></Link>
+                        <Link to="aboutmeContainer" spy={true} smooth={true} offset={-50} duration={0}><a>About</a></Link>
                     </li>
 
                     <li className='nav-item'>
