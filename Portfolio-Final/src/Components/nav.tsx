@@ -1,7 +1,16 @@
 import '../index.css'
 import { Link } from 'react-scroll'
+import Menu1 from '../../public/menu.png'
+import { useState } from 'react';
 
 function Nav() {
+
+    const [dropdownVisible, setDropdownVisible] = useState(false);
+    const toggleDropdown = () => {
+    setDropdownVisible(!dropdownVisible);
+};
+
+
     return(
 
     <nav>
@@ -30,8 +39,48 @@ function Nav() {
                     </li>
 
                 </ul>
+
+                <div className='toggle-btn'>
+                    <img src={Menu1} alt="Toggle menu" onClick={toggleDropdown} />
+                </div>
+
             </div>
         </div>
+
+        {dropdownVisible && (
+            
+            <div id='dropdown-menu'>
+
+            <ul> 
+                
+                <Link to="hero-container" spy={true} smooth={true} offset={-50} duration={0}>
+                    <li>
+                        <a>Home</a>
+                    </li>
+                </Link>
+
+                <Link to="aboutmeContainer" spy={true} smooth={true} offset={-50} duration={0}>
+                    <li>
+                        <a>About</a>
+                    </li>
+                </Link>
+
+                <Link to="portfolio-cards" spy={true} smooth={true} offset={-100} duration={0}>
+                    <li>
+                        <a>Portfolio</a>
+                    </li>
+                </Link>
+
+                <Link to="footer" spy={true} smooth={true} offset={-50} duration={0}>
+                    <li>
+                        <a>Contact</a>
+                    </li>
+                </Link>
+
+            </ul>
+        </div>
+
+        )}
     </nav>
 
     )

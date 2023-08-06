@@ -36,7 +36,7 @@ function App() {
           </div>
 
             <div>
-              <img src={Me} alt='Picture of Dylan' id='main-picrue'></img>
+              <img src={Me} alt='Picture of Dylan' id='main-picture'></img>
             </div>
       </section>
 
