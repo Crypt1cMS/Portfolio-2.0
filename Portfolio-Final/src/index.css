@@ -555,6 +555,10 @@ h1 {
 
   }
 
+  .second-contact {
+    padding-top: 5%;
+  }
+
   .contact-text {
     display: flex;
     flex-direction: column;
