@@ -7,6 +7,9 @@ function StackIcons() {
         <div className='stackconteiner'>
             <h2>Tech stack |</h2>
                     <ul className='stacklist'>
+
+                    <div className='first-row'>
+
                         <li className='stackitems'>
                                 <div className='circle-shape'>
                                     <img src='../public/html-5.png' alt='html icon'></img>
@@ -31,29 +34,35 @@ function StackIcons() {
                             </div>
                         </li>
 
-                        <li className='stackitems'>
-                            <div className='circle-shape'>
-                                <img src='../public/react.png' alt='html icon'></img>
-                            </div>
-                        </li>
+                    </div>
+                    
+                        <div className='second-row'>
 
-                        <li className='stackitems'>
-                            <div className='circle-shape'>
-                                <img src='../public/express-js-icon.png' alt='html icon'></img>
-                            </div>
-                        </li>
+                            <li className='stackitems'>
+                                <div className='circle-shape'>
+                                    <img src='../public/react.png' alt='html icon'></img>
+                                </div>
+                            </li>
 
-                        <li className='stackitems'>
-                            <div className='circle-shape'>
-                                <img src='../public/mongodb.png' alt='html icon'></img>
-                            </div>
-                        </li>
+                            <li className='stackitems'>
+                                <div className='circle-shape'>
+                                    <img src='../public/express-js-icon.png' alt='html icon'></img>
+                                </div>
+                            </li>
 
-                        <li className='stackitems'>
-                            <div className='circle-shape'>
-                                <img src='../public/node-js-icon.png' alt='html icon'></img>
-                            </div>
-                        </li>
+                            <li className='stackitems'>
+                                <div className='circle-shape'>
+                                    <img src='../public/mongodb.png' alt='html icon'></img>
+                                </div>
+                            </li>
+
+                            <li className='stackitems'>
+                                <div className='circle-shape'>
+                                    <img src='../public/node-js-icon.png' alt='html icon'></img>
+                                </div>
+                            </li>
+
+                        </div>
                     </ul>
         </div>
         </>

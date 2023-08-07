@@ -78,26 +78,36 @@ function App() {
           <h2>Let me know what's up!</h2>
 
           <div className='contact-content'>
-            <a href='https://www.google.com/maps/place/Santo+Domingo+Este/@18.5108023,-69.8422345,13z/data=!3m1!4b1!4m6!3m5!1s0x8eaf86f1f07bf257:0x79a94f00155fb584!8m2!3d18.4893469!4d-69.8255369!16s%2Fm%2F027wvfj?entry=ttu' target='blank'>
-              <div className='circle'>
-                <img src={Map} alt='A map'></img>
-              </div>
-            </a>
 
-            <div className='contact-text'> 
-              <h4>Location</h4>
-              <p>Dominincam Republic</p>
+            <div className='firts-contact'>
+
+              <a href='https://www.google.com/maps/place/Santo+Domingo+Este/@18.5108023,-69.8422345,13z/data=!3m1!4b1!4m6!3m5!1s0x8eaf86f1f07bf257:0x79a94f00155fb584!8m2!3d18.4893469!4d-69.8255369!16s%2Fm%2F027wvfj?entry=ttu' target='blank'>
+                <div className='circle'>
+                  <img src={Map} alt='Google map'></img>
+                </div>
+              </a>
+
+              <div className='contact-text'> 
+                <h4>Location</h4>
+                <p>Dominincan Republic</p>
+              </div>
+
             </div>
-        
-            <a id='acircle2' href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTtRrtbjlRrQhVhjhdQJrcknVQnKNGcsCkQpLqQvVslQNvzPfBBVDnxMBcVSDxnPFffqzm' target='blank'>
-              <div className='circle2'>
-                <img src={Gmail} alt='A map'></img>
-              </div>
-            </a>
 
-            <div className='contact-text'> 
-              <h4>Mail</h4>
-              <p>dylan.minaya12@gmail.com</p>
+
+            <div className='second-contact'>
+
+              <a id='acircle2' href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTtRrtbjlRrQhVhjhdQJrcknVQnKNGcsCkQpLqQvVslQNvzPfBBVDnxMBcVSDxnPFffqzm' target='blank'>
+                <div className='circle2'>
+                  <img src={Gmail} alt='Gmail'></img>
+                </div>
+              </a>
+
+              <div className='contact-text'> 
+                <h4>Mail</h4>
+                <p>dylan.minaya12@gmail.com</p>
+              </div>
+
             </div>
           </div>
         </div>
