@@ -6,10 +6,14 @@ import { useState } from 'react';
 function Nav() {
 
     const [dropdownVisible, setDropdownVisible] = useState(false);
-    const toggleDropdown = () => {
-    setDropdownVisible(!dropdownVisible);
-};
 
+    const closeDropdown = () => {
+        setDropdownVisible(false);
+    };
+
+    const toggleDropdown = () => {
+        setDropdownVisible(!dropdownVisible);
+    };
 
     return(
 
@@ -54,25 +58,25 @@ function Nav() {
             <ul> 
                 
                 <Link to="hero-container" spy={true} smooth={true} offset={-50} duration={0}>
-                    <li>
+                    <li onClick={closeDropdown}>
                         <a>Home</a>
                     </li>
                 </Link>
 
                 <Link to="aboutmeContainer" spy={true} smooth={true} offset={-100} duration={0}>
-                    <li>
+                    <li onClick={closeDropdown}>
                         <a>About</a>
                     </li>
                 </Link>
 
                 <Link to="portfolio-cards" spy={true} smooth={true} offset={-75} duration={0}>
-                    <li>
+                    <li onClick={closeDropdown}>
                         <a>Portfolio</a>
                     </li>
                 </Link>
 
                 <Link to="footer" spy={true} smooth={true} offset={-50} duration={0}>
-                    <li>
+                    <li onClick={closeDropdown}>
                         <a>Contact</a>
                     </li>
                 </Link>
