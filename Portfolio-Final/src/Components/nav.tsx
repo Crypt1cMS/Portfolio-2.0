@@ -27,11 +27,11 @@ function Nav() {
                     </li>
 
                     <li className='nav-item'>
-                        <Link to="aboutmeContainer" spy={true} smooth={true} offset={-50} duration={0}><a>About</a></Link>
+                        <Link to="aboutmeContainer" spy={true} smooth={true} offset={-240} duration={0}><a>About</a></Link>
                     </li>
 
                     <li className='nav-item'>
-                        <Link to="portfolio-cards" spy={true} smooth={true} offset={-100} duration={0}><a>Portfolio</a></Link>
+                        <Link to="portfolio-cards" spy={true} smooth={true} offset={-150} duration={0}><a>Portfolio</a></Link>
                     </li>
 
                     <li className='nav-item'>
@@ -59,13 +59,13 @@ function Nav() {
                     </li>
                 </Link>
 
-                <Link to="aboutmeContainer" spy={true} smooth={true} offset={-50} duration={0}>
+                <Link to="aboutmeContainer" spy={true} smooth={true} offset={-100} duration={0}>
                     <li>
                         <a>About</a>
                     </li>
                 </Link>
 
-                <Link to="portfolio-cards" spy={true} smooth={true} offset={-100} duration={0}>
+                <Link to="portfolio-cards" spy={true} smooth={true} offset={-75} duration={0}>
                     <li>
                         <a>Portfolio</a>
                     </li>

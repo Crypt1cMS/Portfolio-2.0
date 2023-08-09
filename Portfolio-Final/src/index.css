@@ -29,7 +29,7 @@ nav {
 }
 
 #nav-items-left {
-  padding: 1.5%;
+  padding: 15px;
   padding-left: 4%;
   margin-right: 10px;
 }
@@ -111,7 +111,7 @@ h1 {
 
 #hero-container {
   display: flex;
-  padding-top: 13%;
+  padding-top: 11%;
 }
 
 .hero-info {
