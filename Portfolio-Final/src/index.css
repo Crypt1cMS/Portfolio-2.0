@@ -255,7 +255,9 @@ h1 {
   color: #2B5AFF;
 }
 
-.about-me-text a {
+/* Resume button  */
+
+/* .about-me-text a {
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -265,7 +267,13 @@ h1 {
   font-weight: bold;
   background: #393939;
   color: white;
+  transition: all 0.2s;
 }
+
+.about-me-text a:hover {
+  transform: scale(1.1);
+  border-radius: 5px;
+} */
 
 #portfolio-cards {
   width: 100%;
@@ -559,6 +567,19 @@ h1 {
   #main-picture {
     margin-top: 20%;
     width: 290px;
+  }
+}
+
+@media (max-width: 380px) {
+
+  .circle-shape {
+    width: 55px;
+    height: 55px;
+  }
+
+
+  .circle-shape img {
+    width: 35px;
   }
 }
 
