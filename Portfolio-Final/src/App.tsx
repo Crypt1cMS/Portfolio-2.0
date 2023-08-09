@@ -52,10 +52,10 @@ function App() {
             </div>
 
               <div className='about-me-text'>
+
                 <h3><span>About me</span></h3>
                 <h2>A dedicated MERN full-stack Developer in Dominican Republic</h2>
                 <p>I am young and promising web developer with a remarkable ability to learn quickly. Despite me just starting coding, I dive headfirst into coding, absorbing concepts like a sponge. My passion and tenacity fuel my progress as I fearlessly embrace challenges and seek guidance from experienced developers.</p>
-
               </div>
             </div>
         </div>
@@ -64,7 +64,7 @@ function App() {
       <section id='portfolio-cards'>
         <header className='card-header'>
           <h3>Portfolio</h3>
-          <h2>Every endeavor stands as an individual masterpiece of progress. ✨</h2>
+          <h2>Every endeavor stands as an individual masterpiece of progress.✨</h2>
         </header>
 
         <Cards/>

@@ -255,6 +255,18 @@ h1 {
   color: #2B5AFF;
 }
 
+.about-me-text a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 2% 0 2%;
+  border: 3px solid #393939;
+  border-radius: 20px;
+  font-weight: bold;
+  background: #393939;
+  color: white;
+}
+
 #portfolio-cards {
   width: 100%;
   height: auto;
