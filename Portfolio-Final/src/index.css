@@ -1,6 +1,7 @@
 
 *, ::before, :after {
   box-sizing: inherit;
+  transition: all 0.2s;
 } 
 
 html, body {
@@ -164,7 +165,7 @@ h1 {
   display: flex;
   margin-top: 7%;
   width: 100%;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
   align-items: center;
   justify-content: center;
 }
@@ -214,7 +215,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  margin-bottom: 15%;
   width: 100%;
 }
 
@@ -224,7 +225,7 @@ h1 {
   background-color: white;
   margin: 0 10% 0 10%;
   width: 100%;
-  padding: 30px;
+  padding: 50px;
   border-radius: 30px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -255,13 +256,14 @@ h1 {
 
 #portfolio-cards {
   width: 100%;
-  height: 80vh;
+  height: auto;
+  margin-bottom: 10%;
 }
 
 .card-header {
-  width: 40%;
-  padding-top: 2%;
+  width: 80%;
   margin-left: 20%;
+  margin-bottom: 5%;
 }
 
 .card-header h3 {
@@ -278,7 +280,7 @@ h1 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .portfolio-card-shape {
@@ -287,9 +289,7 @@ h1 {
   align-items: center;
   background-color: white;
   margin: 0 20% 0 20%;
-  margin-top: -15%;
   width: 100%;
-  height: 50%;
   border-radius: 30px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -298,7 +298,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 10% 0 10%;
+  padding: 5% 10% 5% 10%;
   gap: 5%;
 }
 
@@ -377,14 +377,14 @@ h1 {
 
 #footer {
   width: 100%;
-  height: 30vh;
+  height: auto;
 }
 
 .contact-info {
   width: 100%;
   height: 100%;
   background-color: white;
-  padding: 1% 20% 0 20%;
+  padding: 1% 20% 3% 20%;
 }
 
 .rights {
@@ -392,12 +392,10 @@ h1 {
   justify-content: start;
   align-items: center;
   width: 100%;
-  height: 40%;
   background: #393939;
-  padding: 0 20% 0 20%;
+  padding: 1% 20% 1% 20%;
   color: white;
 }
-
 
 .contact-content {
   display: flex;
@@ -517,6 +515,7 @@ h1 {
   .hero-text h1 {
     width: 100%;
     font-size: 32px;
+    padding-top: 4%;
   }
 
   .hero-text p {
@@ -526,6 +525,20 @@ h1 {
   .hero-icons {
     justify-content: center;
     margin: 0 auto;
+    margin-top: 4%;
+  }
+}
+
+@media (max-width: 719px) {
+  .stacklist {
+    padding: 0%;
+  }
+}
+
+@media (max-width: 420px) {
+  #main-picture {
+    margin-top: 10%;
+    width: 290px;
   }
 }
 
@@ -564,14 +577,41 @@ h1 {
   }
 
   .aboutmeContainer {
-    
     height: 100%;
   }
 }
 
 /* Responsive Portfolio */
 
+@media (max-width: 1100px) {
+  .portfolio-content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 400px;
+    padding: 0;
+  }
 
+  .portfolio-picture {
+    margin: 5% 0 10%;
+  }
+}
+
+
+@media (max-width: 630px) {
+  .card-header {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 500px) {
+
+  .card-header h2 {
+    margin-bottom: 10%;
+  }
+}
 
 /* Responsive Footer */
 
@@ -601,6 +641,13 @@ h1 {
     flex-direction: column;
     text-align: center;
     
+  }
+}
+
+@media (max-width: 655px) {
+  .rights h3 {
+    font-size: 1em;
+    text-align: center;
   }
 }
 
