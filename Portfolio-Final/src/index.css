@@ -78,18 +78,17 @@ ul {
   display: flex;
   flex-direction: column;
   position: absolute;
+  background: white;
+  overflow: hidden;
+  display: none;
   right: 0;
   top: 60px;
   width: 100%;
-  background: white;
-  border-radius: 10px;
-  overflow: hidden;
+  border-radius: 0 0 10px 10px;
   margin: 0%;
   padding: 0%;
-  display: none;
   transition: max-height 0.5s;
   transition: all 0.5s;
-  overflow: hidden;
 }
 
 #dropdown-menu.active {
