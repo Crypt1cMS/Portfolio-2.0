@@ -19,7 +19,7 @@ function App() {
           <div className='hero-info'>
 
             <div className='hero-text'>            
-              <h1>Full-Stack Developer 👋🏼</h1>
+              <h1>FullStack Developer 👋🏼</h1>
               <p>Hi, I'm Dylan Minaya! I am an adaptive MERN full-stack developer in the Dominican Republic, Santo Domingo.</p>
             </div>
 

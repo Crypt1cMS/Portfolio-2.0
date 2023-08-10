@@ -78,17 +78,22 @@ ul {
   display: flex;
   flex-direction: column;
   position: absolute;
-  right: 1.2em;
-  top: 70px;
-  width: 300px;
+  right: 0;
+  top: 60px;
+  width: 100%;
   background: white;
   border-radius: 10px;
   overflow: hidden;
   margin: 0%;
   padding: 0%;
   display: none;
-  transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: all 0.2s;
+  transition: max-height 0.5s;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+#dropdown-menu.active {
+  max-width: 400px;
 }
 
 #dropdown-menu li {
@@ -122,6 +127,7 @@ h1 {
 }
 
 .hero-info p {
+
   padding-top: 4%;
   width: 65%;
   color: #393939;
@@ -129,13 +135,9 @@ h1 {
 
 .hero-text h1 {
   width: 65%;
-  font-size: 48px;
+  font-size: 44px;
   line-height: 65px;
   color: #2B5AFF;
-}
-
-.hero-text p {
-  font-size: 18px;
 }
 
 #main-picture {
@@ -548,7 +550,7 @@ h1 {
   .hero-icons {
     justify-content: center;
     margin: 0 auto;
-    margin-top: 4%;
+    margin-top: 10%;
   }
 }
 
@@ -610,6 +612,11 @@ h1 {
   .about-me-content {
     display: flex;
     flex-direction: column;
+    margin: 0 10px 0 10px;
+  }
+
+  .about-me-card {
+    padding: 50px 10px 50px 10px;
   }
 
   .about-me-text {
