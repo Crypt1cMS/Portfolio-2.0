@@ -331,12 +331,12 @@ h1 {
   width: 50%;
   display: flex;
   justify-content: center;
-  background-color: #393939;
 }
 
 .portfolio-picture img {
   width: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .porfolioTcontainer{
@@ -373,6 +373,7 @@ h1 {
   height: 35px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 .tools-used span:hover {

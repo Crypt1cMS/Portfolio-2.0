@@ -1,13 +1,14 @@
 import './index.css'
 import Nav from './Components/nav'
 import StackIcons from './Components/Stack-Icons'
-import Cards from './Components/Cards-right'
 import Me from '../public/Dylan1-fotor-20230726192736.png'
 import Github from '../public/github1.png'
 import Linkedin from '../public/linkedin1.png'
 import Aboutme from '../public/software-developer-6521720_960_720 1.png'
 import Map from '.././public/map.png'
 import Gmail from '../public/gmail.png'
+import Projects from './Components/Projects'
+import Car from '../public/Car Throttle.gif'
 
 function App() {
   return (
@@ -67,7 +68,15 @@ function App() {
             <h2>Every endeavor stands as an individual masterpiece of progress.✨</h2>
           </header>
 
-          <Cards/>
+          <Projects 
+            projectName='Project 1' 
+            description='In the heart of the bustling city, amidst the cacophony of car horns and chatter of passersby, there stood an ancient bookstore. Its weathered sign swung gently in the breeze, bearing the weight of countless stories within its creaky walls.' 
+            primaryTool='React' 
+            secondaryTool='CSS' 
+            source='Source code' 
+            demo='Live Demo'
+            image={Car}
+          />
 
         </section>
 
