@@ -14,30 +14,30 @@ function Projects({ projectName, description, primaryTool, secondaryTool, source
       
     return (
         <>
-                    <section id='cards'>
+            <section id='cards'>
                 <div className='portfolio-card-shape'>
                     <div className='portfolio-content'>
 
-                    <div className='porfolioTcontainer'>
-                        <div className='portfolio-text'>
-                            <h2>{projectName}</h2>
-                            <p>{description}</p> 
+                        <div className='porfolioTcontainer'>
+                            <div className='portfolio-text'>
+                                <h2>{projectName}</h2>
+                                <p>{description}</p> 
+                            </div>
+
+                            <div className='tools-used'>
+                                <span>{primaryTool}</span>
+                                <span>{secondaryTool}</span>
+                            </div>
+
+                            <div className='source'>
+                                <a href='#'><p>{source}</p></a>
+                                <a href='#'><p>{demo}</p></a>
+                            </div>
                         </div>
 
-                        <div className='tools-used'>
-                            <span>{primaryTool}</span>
-                            <span>{secondaryTool}</span>
-                        </div>
-
-                        <div className='source'>
-                            <a href='#'><p>{source}</p></a>
-                            <a href='#'><p>{demo}</p></a>
-                        </div>
-                    </div>
-
-                        <div className='portfolio-picture'>
-                            <img src={image} alt='project 1'></img>
-                        </div>
+                            <div className='portfolio-picture'>
+                                <img src={image} alt='project 1'></img>
+                            </div>
 
                     </div>
                 </div>
@@ -46,7 +46,5 @@ function Projects({ projectName, description, primaryTool, secondaryTool, source
         </>
     )
 }
-
-
 
 export default Projects
